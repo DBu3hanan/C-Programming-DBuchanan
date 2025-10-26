@@ -10,7 +10,7 @@ int main()
 {
      char FirstName [50];
      char lastName [50];
-     char Year [100];
+     char Year [4];
      int MonthSelection, DayChoice, YearChoice;
      printf("Enter your first name:");
      scanf(" %s", &FirstName);
@@ -21,9 +21,9 @@ int main()
      printf("Hello, %s %s",FirstName,lastName);
      
      printf("\nPlease select a month");
-     printf("\n\n1. January\n2.February\n3. March\n4.April");
-     printf("\n5. May\n6.June\n7. July\n8.August");
-     printf("\n9. September\n10.October\n11. November\n12.December\n");
+     printf("\n\n1. January\n2. February\n3. March\n4. April");
+     printf("\n5. May\n6. June\n7. July\n8. August");
+     printf("\n9. September\n10. October\n11. November\n12. December\n");
      printf("Choice:");
      
      scanf("%d", &MonthSelection);
@@ -292,7 +292,7 @@ int main()
                         printf("\nInvalid Choice");
                    }
                    else{
-                        printf("\nYou have chosen %s %d %d", Year, DayChoice,YearChoice );
+                        printf("\nYou have chosen: %s %d %d", Year, DayChoice,YearChoice );
                    }
                }
           break;
