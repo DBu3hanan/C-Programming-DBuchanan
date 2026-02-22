@@ -17,7 +17,6 @@ int main()
     
          if(strcmp(userName,username ) == 0 && strcmp (password,passWord ) == 0){
               printf("\nLogin Successful");
-              break;
          }
               else if(strcmp(userName,username ) !=0 && strcmp (password,passWord ) == 0){
                    printf("\nUsername Wrong");
